@@ -1,0 +1,19 @@
+.images{
+    width: 400px;
+}
+.slide-show{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 50px;
+}
+#previousBtn, #nextBtn{
+    width: 80px;
+    background-color: yellow;
+    border-radius: 15px;
+    border: none;
+}
+#previousBtn:hover, #nextBtn:hover{
+    border: 1px solid black;
+    background-color: rgb(245, 245, 60);
+}
