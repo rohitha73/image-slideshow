@@ -7,8 +7,10 @@ let currentImageIndex = 0;
 previousBtn.addEventListener('click', () => {
     currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
     img01.src = images[currentImageIndex];
+    document.querySelector('body').style.backgroundColor = 'lightgreen';
 });
 nextBtn.addEventListener('click', () => {
     currentImageIndex = (currentImageIndex + 1 ) % images.length;
     img01.src = images[currentImageIndex];
+    document.querySelector('body').style.backgroundColor = 'lightblue';
 });
